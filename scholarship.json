@@ -1,0 +1,133 @@
+[
+    {
+        "id": "NSP-2026-01",
+        "name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+        "provider": "All India Council for Technical Education (AICTE)",
+        "education_level": [
+            "Undergraduate(Technical Degree)"
+        ],
+        "eligibility": [
+            "Admitted to 1st year of a technical degree course; maximum two girls per family"
+        ],
+        "income_criteria": "Annual family income up to ₹8,00,000",
+        "required_documents": [
+            "Mark sheet of Class 10/12",
+            "Admission letter",
+            "Income certificate",
+            "Bank passbook"
+        ],
+        "deadline": "31-oct-26",
+        "deadline_status": "varified",
+        "official_url": "https://scholarships.gov.in/",
+        "last_verified": "oct-26"
+    },
+    {
+        "id": "NSP-2026-02",
+        "name": "National Scholarship for Post Graduate studies",
+        "provider": "University Grants Commission (UGC)",
+        "education_level": [
+            "Postgraduate"
+        ],
+        "eligibility": [
+            "Students admitted to 1st year of PG programs in recognized universities/colleges"
+        ],
+        "income_criteria": "N/A(Merit-based)",
+        "required_documents": [
+            "Graduation mark sheet",
+            "Aadhaar card",
+            "Admission proof",
+            "Bank details"
+        ],
+        "deadline": "31-oct-26",
+        "deadline_status": "varified",
+        "official_url": "https://scholarships.gov.in/",
+        "last_verified": "oct-26"
+    },
+    {
+        "id": "NSP-2026-03",
+        "name": "AICTE Saksham Scholarship Scheme for Specially Abled Students (Technical Degree)",
+        "provider": "All India Council for Technical Education (AICTE)",
+        "education_level": [
+            "Undergraduate(Technical Degree)"
+        ],
+        "eligibility": [
+            "Specially abled students with disability of not less than 40% enrolled in technical courses"
+        ],
+        "income_criteria": "Annual family income not exceeding ₹8,00,000",
+        "required_documents": [
+            "UDID / Disability certificate",
+            "Qualifying exam mark sheet",
+            "Fee receipt",
+            "Bank details"
+        ],
+        "deadline": "31-oct-26",
+        "deadline_status": "varified",
+        "official_url": "https://scholarships.gov.in/",
+        "last_verified": "oct-26"
+    },
+    {
+        "id": "NSP-2026-04",
+        "name": "Central Sector Scheme of Top Class Education for SC Students",
+        "provider": "Ministry of Social Justice and Empowerment",
+        "education_level": [
+            "Postgraduate / Post Graduate"
+        ],
+        "eligibility": [
+            "SC students secured admission in notified premier institutions (IITs, IIMs, NITs, etc.)"
+        ],
+        "income_criteria": "Annual family income up to ₹8,00,000",
+        "required_documents": [
+            "Caste certificate",
+            "Income certificate",
+            "Fee receipt",
+            "Institutional enrollment proof"
+        ],
+        "deadline": "31-oct-26",
+        "deadline_status": "varified",
+        "official_url": "https://scholarships.gov.in/",
+        "last_verified": "oct-26"
+    },
+    {
+        "id": "B4S-2026-05",
+        "name": "IDFC FIRST Bank MBA Scholarship",
+        "provider": "IDFC FIRST Bank",
+        "education_level": [
+            "Postgraduate(MBA)"
+        ],
+        "eligibility": [
+            "Students enrolled in the 1st year of a 2-year full-time MBA program"
+        ],
+        "income_criteria": "Gross annual income up to ₹6,00,000",
+        "required_documents": [
+            "Admission letter",
+            "Graduation mark sheet",
+            "Family income proof",
+            "Bank statement"
+        ],
+        "deadline": "july-26(closed)",
+        "deadline_status": "closed",
+        "official_url": "https://www.buddy4study.com/",
+        "last_verified": "oct-26"
+    },
+    {
+        "id": "NSP-2026-04",
+        "name": "National Fellowship for Minority Students",
+        "provider": "University Grants Commission (UGC)",
+        "education_level": [
+            "Postgraduate"
+        ],
+        "eligibility": [
+            "Students belonging to minority communities pursuing PG courses in recognized universities/colleges"
+        ],
+        "income_source": "N/A(Merit-based)",
+        "required_documents": [
+            "Minority certificate",
+            "Admission proof",
+            "Bank details"
+        ],
+        "deadline": "31-oct-26",
+        "deadline_status": "varified",
+        "official_url": "https://scholarships.gov.in/",
+        "last_verified": "oct-26"
+    }
+]
