@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusSaathi AI | Student Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">CampusSaathi <span>AI</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#scholarships">Scholarships</a>
+            <a href="#attendance">Attendance</a>
+            <a href="#assistant">AI Assistant</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="tagline">YOUR SMART COLLEGE COMPANION</p>
+
+                <h1>Your College Life,<br>
+                    <span>Simplified with AI.</span>
+                </h1>
+
+                <p class="description">
+                    Find scholarships, track your attendance, manage reminders,
+                    and get student support in one place.
+                </p>
+
+                <a href="#scholarships" class="primary-button">
+                    Explore Scholarships →
+                </a>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-icon">✦</div>
+                <h3>Hello, Student!</h3>
+                <p>What would you like help with today?</p>
+
+                <div class="quick-item">🎓 Find Scholarships</div>
+                <div class="quick-item">📅 Check Attendance</div>
+                <div class="quick-item">🤖 Ask CampusSaathi</div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="section-heading">
+                <p class="tagline">YOUR STUDENT TOOLKIT</p>
+                <h2>Everything you need, in one place.</h2>
+            </div>
+
+            <div class="feature-grid">
+                <a href="#scholarships" class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Scholarship Finder</h3>
+                    <p>Explore scholarship information and official sources.</p>
+                    <span>Explore →</span>
+                </a>
+
+                <a href="#attendance" class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Attendance Tracker</h3>
+                    <p>Calculate your attendance and check your progress.</p>
+                    <span>Calculate →</span>
+                </a>
+
+                <a href="#reminders" class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Reminders</h3>
+                    <p>Organize your fee deadlines and exam dates.</p>
+                    <span>View reminders →</span>
+                </a>
+
+                <a href="#assistant" class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Student Assistant</h3>
+                    <p>Get help with student-related questions.</p>
+                    <span>Ask a question →</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="scholarships" class="content-section">
+            <p class="tagline">FINANCIAL OPPORTUNITIES</p>
+            <h2>Scholarship Finder</h2>
+            <p>
+                Find scholarship information and visit official portals
+                to verify eligibility and deadlines.
+            </p>
+
+            <a
+                href="https://scholarships.gov.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="primary-button"
+            >
+                Visit National Scholarship Portal →
+            </a>
+
+            <div id="scholarship-list" class="scholarship-grid">
+                <p>Scholarship records will appear here in the next step.</p>
+            </div>
+        </section>
+
+        <section id="attendance" class="content-section attendance-section">
+            <p class="tagline">STAY ON TRACK</p>
+            <h2>Attendance Calculator</h2>
+            <p>Enter your class details to calculate your attendance.</p>
+
+            <form id="attendance-form" class="attendance-form">
+                <label for="total-classes">Total classes held</label>
+                <input
+                    type="number"
+                    id="total-classes"
+                    min="1"
+                    step="1"
+                    required
+                >
+
+                <label for="attended-classes">Classes attended</label>
+                <input
+                    type="number"
+                    id="attended-classes"
+                    min="0"
+                    step="1"
+                    required
+                >
+
+                <button type="submit" class="primary-button">
+                    Calculate Attendance
+                </button>
+            </form>
+
+            <div id="attendance-result" class="result-box" aria-live="polite">
+                Your attendance result will appear here.
+            </div>
+        </section>
+
+        <section id="reminders" class="content-section">
+            <p class="tagline">NEVER MISS A DEADLINE</p>
+            <h2>Fees & Exam Reminders</h2>
+            <p>
+                This section will help you organize your important
+                college dates.
+            </p>
+
+            <div class="reminder-placeholder">
+                <span>📅</span>
+                <p>Fee and exam reminder features are coming next.</p>
+            </div>
+        </section>
+
+        <section id="assistant" class="content-section assistant-section">
+            <p class="tagline">YOUR DIGITAL COMPANION</p>
+            <h2>Ask CampusSaathi AI</h2>
+            <p>
+                The chat interface will be connected to the AI model
+                in a later step.
+            </p>
+
+            <div class="chat-box">
+                <div class="chat-message">
+                    <strong>CampusSaathi:</strong>
+                    Hi! I'm your student assistant. What do you need help with?
+                </div>
+
+                <form id="chat-form" class="chat-form">
+                    <label class="visually-hidden" for="chat-input">
+                        Ask a question
+                    </label>
+
+                    <input
+                        type="text"
+                        id="chat-input"
+                        placeholder="Ask a student-related question..."
+                        autocomplete="off"
+                    >
+
+                    <button type="submit" class="primary-button">
+                        Send
+                    </button>
+                </form>
+
+                <p id="chat-status" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">CampusSaathi <span>AI</span></a>
+        <p>Helping students move forward, one step at a time.</p>
+        <p>© 2026 CampusSaathi AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
